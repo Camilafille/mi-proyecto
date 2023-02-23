@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel La Montagne</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo-1">
+            <a href="./index.html">
+                <img src="./assets/icons/hotel-rural-con-logo-de-montanas-de-tres-estrellas.png" alt=""></a>
+        </div>
+
+        <nav>
+            
+            <ul class="barraNav">
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="./pages/habitacion.html">HABITACIONES</a></li>
+                <li><a href="./pages/resto-bar.html">RESTO-BAR</a></li>
+                <li><a href="./pages/spa.html">SPA</a></li>
+                <li><a href="./pages/actividades.html">ACTIVIDADES</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+
+
+    <main>
+        
+        <section>
+            <div class="bannerDiv"> 
+                <img src="./assets/img/alarma-hotel.jpg" alt="alarma de hotel">
+                <h1>HOTEL LA MONTAGNE, tu lugar de relax.</h1>
+            </div>
+            <div class="sobreNosotros"> 
+                <h2>Sobre Nosotros</h2>
+
+                <p>Contamos con todos los servicios para que solo te ocupes de pasarla bien.
+                Nuestro personal altamente capacitado y siempre dispuesto a brindarte lo mejor.
+                La infraestructura es de privilegio en todo con una decoracion unica.
+                Spa.
+                Resto-bar.</p>
+            </div>
+            
+        </section>
+
+    <div  id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class=" carousel-inner">
+            <div class=" carousel-item active">
+                <img src="./assets/img/iloveimg-resized/toa-heftiba-2GMervuSEs4-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
+        <div class=" carousel-item">
+            <img src="./assets/img/iloveimg-resized/viajeros-recepcion.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class=" carousel-item">
+            <img src="./assets/img/iloveimg-resized/interior-restaurante.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class=" carousel-item">
+            <img src="./assets/img/iloveimg-resized/maquinas-ejercicio-gimnasio-gente.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class=" carousel-item">
+            <img src="./assets/img/iloveimg-resized/woman-next-to-swimming-pool-in-spa.jpg" class="d-block w-100" alt="...">
+        </div>
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+
+
+
+    <section class=" servicios row container-fluid background ">
+        
+            <div class="serviciosH">
+                <h2>Servicios</h2>
+            </div>
+            <div class="row seriviciosRow">
+                <div class="col-sm-12  col-md-3 col-lg-3 iconos-1">
+                    <img src="./assets/icons/bata-de-bano.png" alt="">
+                    <p>Spa</p>
+                </div> 
+                <div class=" col-sm-12 col-lg-3 iconos-1">  
+                    <img src="./assets/icons/martini.png" alt="">
+                    <p>Resto-bar</p>
+                </div>
+                <div class=" col-sm-12 col-lg-3 iconos-1">
+                    <img src="./assets/icons/pesa.png" alt="">
+                    <p>Gym</p>
+                </div>    
+                <div class="col-sm-12 col-lg-3 iconos-1">
+                    <img src="./assets/icons/piscina.png" alt="">
+                    <p>Piscina</p>
+                </div>
+            </div>
+            <div class="row serviciosRow">
+                <div class=" col-sm-12 col-lg-3 iconos-1">
+                    <img src="./assets/icons/habitacion.png" alt="">
+                    <p>400 Habitaciones</p>
+                </div>
+                <div class=" col-sm-12 col-lg-3 iconos-1">
+                    <img src="./assets/icons/wifi.png" alt="">
+                    <p>Wifi</p>
+                </div>
+                <div class="col-sm-12 col-lg-3 iconos-1">
+                    <img src="./assets/icons/estacionamiento.png" alt="">
+                    <p>Estacionamiento</p>
+                </div>
+                <div class="col-sm-12 col-lg-3 iconos-1">
+                    <img src="./assets/icons/huella.png" alt="">
+                    <p>Pet friendly</p>
+                </div>
+            </div>
+    </section>
+
+    <section>
+            <div class="reserva">
+                <h2>HAS TU RESERVA AQUI</h2>
+            </div>
+            <div class="background">
+                <form action="" method="post">
+                <fieldset class="reserva-2">
+                        <legend>Reserva</legend>
+                        <label for="llegada">Check in</label>
+                        <input type="date" id="date" placeholder="Ingrese fecha aqui">
+                        <label for="ida">Check out</label>
+                        <input type="date" id="date"  placeholder="Ingrese fecha aqui">
+                        <label for="e-mail">Ingrese e-mail</label>
+                        <input type="email" id="e-mail" placeholder="Ingrese email aqui">
+                </fieldset>
+                <div class="reserva-2">
+                    <input type="submit" type="button" class="btn btn-outline-light">
+                    <input type="reset" value="Reset" type="button" class="btn btn-outline-light">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <section>
+            <div class="logo-1">
+                <a href="./index.html">
+                    <img src="./assets/icons/hotel-rural-con-logo-de-montanas-de-tres-estrellas.png" alt="">
+                </a>
+            </div>
+            <div>
+                <ul class="barraFooter">
+                    <li><a href="#"><img src="./assets/icons/Facebook.png" alt=""></a> </li>
+                    <li><a href="#"><img src="./assets/icons/Instagram.png" alt=""></a> </li>
+                    <li><a href="#"><img src="./assets/icons/Twitter.png" alt=""></a> </li>
+                </ul>
+            </div>
+            <div class="barraFooter-2">
+                <h3>CONTACTO</h3>
+                <ul>
+                    <li>1229 Rohan Mountains</li>
+                    <li>(239) 555-0108</li>
+                    <li>tranthuy.nute@gmail.com</li>
+                </ul>
+            </div>
+        </section>
+        
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" 
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" 
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ALT + Z Le damos orden al codigo -->
+
+
+
+
