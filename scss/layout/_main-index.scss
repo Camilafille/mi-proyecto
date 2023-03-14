@@ -1,0 +1,205 @@
+.sobreNosotros{
+    position: relative;
+    width: 100%;
+    padding: 100px;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:$colorBg;
+    top: 0;
+    h2{
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 25px;
+        font-weight:bold;
+        letter-spacing: 2px;
+        padding-left: 80px;
+        padding-bottom: 40px;
+        color:rgb(15, 15, 15);
+        text-decoration-line: underline;
+    
+    }
+    
+}
+
+
+
+/* Servicios */
+
+
+.buttonCar{
+    color:$colorBg
+}
+.servicios{
+width: 100%;
+padding: 41px;
+margin: 0;
+
+}
+.serviciosH {
+    h2{
+
+    margin-top:0 ;
+    padding: 38px 40px;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    flex-wrap:wrap;
+    }
+}
+.serviciosRow-1{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 80px;
+    justify-content: space-between
+}
+.serviciosRow-2{
+@extend .serviciosRow-1;
+}
+
+.iconos-1 {
+    img{
+        @include iServicio;
+    }
+}
+.iconos-2{
+    img{
+        @include iServicio;
+    }
+}
+.iconos-3{
+    img{
+        @include iServicio;
+    }
+}
+.iconos-4{
+    img{
+        @include iServicio;
+    }
+}
+.iconos-5{
+    img{
+        @include iServicio;
+    }
+}
+.iconos-6{
+    img{
+        @include iServicio;
+    }
+}
+.iconos-7{
+    img{
+        @include iServicio;
+    }
+}
+.iconos-8{
+    img{
+        @include iServicio;
+    }
+}
+
+
+
+/* Reserva */
+
+
+.reserva{
+    display: flex;
+    width: 100%;
+    background-color:#061e41;
+    justify-content:center;
+    align-items: center;
+    h2{
+        color:$colorBg;
+        font-size: 25;
+        padding: 50px;
+    }
+}
+
+label{
+    color: #061e41;
+    
+}
+
+legend{
+    color: #061e41;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: medium;
+}
+
+.reserva-2{
+    padding: 50px;
+    top: 0;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 5px;
+    justify-content:center;
+    background-color: #d7e1f0;
+    padding: 20px;
+    border-radius: 14px;
+    transition: .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.4) 1px 2px 2px;
+    &:hover{
+        transform: translateX(-0.5em) translateY(-0.5em);
+        border: 1px solid #171717;
+        box-shadow: 10px 10px 0px #666666;
+        }
+    }
+
+
+    .heading {
+    color: black;
+    padding-bottom: 2em;
+    text-align: center;
+    font-weight: bold;
+    }
+
+    .input {
+    border-radius: 5px;
+    border: 1px solid rgba(196, 218, 238, 0.712);
+    background-color: whitesmoke;
+    outline: none;
+    padding: 0.7em;
+    transition: .4s ease-in-out;
+    &:hover {
+        box-shadow: 6px 6px 0px #969696,
+                    -3px -3px 10px #ffffff;
+        }
+        &:focus {
+        background: #ffffff;
+        box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+        }
+    }
+
+
+
+    .form .btn {
+    margin-top: 2em;
+    align-self: center;
+    padding: 0.7em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    transition: .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+        &:hover {
+        box-shadow: 6px 6px 0px #969696,
+                    -3px -3px 10px #ffffff;
+        transform: translateX(-0.5em) translateY(-0.5em);
+        }
+        &:active {
+    transition: .2s;
+    transform: translateX(0em) translateY(0em);
+    box-shadow: none;
+        }
+    }
+

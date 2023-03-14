@@ -1,0 +1,113 @@
+
+/* Pagina Actividades */
+
+
+.sectionAct{
+    padding: 5px 5px 60px 0px;
+    margin-top: 20px;
+    h2{
+        padding: 70px 90px;
+    }
+    p{
+    font-size: 15px;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-indent: 40px;
+    letter-spacing: 2px;
+    background-color: #98d4ebc5;
+    padding:50px;
+    width:100%;
+}
+}
+
+.cardS{
+    width: 100%;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom:158px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    row-gap: 30px;
+    
+}
+.card {
+    height: 350px;
+    width: 300px;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 1em;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    ;
+    }
+
+    .card-image {
+    height: 100%;
+    position: absolute;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-color: rgba(0, 0, 0, 0.322);
+    img{
+        width: 300px;
+        }
+    }
+
+
+    .card-description {
+    display: flex;
+    position: absolute;
+    gap: 1em;
+    flex-direction: column;
+    background-color:#dfe9ec;
+    height: 60%;
+    bottom: 0;
+    border-radius: 1em 1em 0 0;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 1rem;
+    }
+
+    .text-title {
+    font-size: 20;
+    font-weight: 600;
+    text-align:left;
+    }
+    
+    .text-body {
+    font-size: 15;
+    line-height: 150%;
+    letter-spacing: 2px;
+    }
+
+    .card:hover .card-description {
+    transform: translateY(80%);
+    }
+
+    .buttonA {
+    position:absolute;
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: lightcoral;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+    }
+    
+    .buttonA:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+    }
+    
+    .buttonA:hover:not(:disabled) {
+    background: lightcoral;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+    }
+    
+    .buttonA:disabled {
+    cursor: auto;
+    color: grey;
+    }

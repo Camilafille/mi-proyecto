@@ -1,0 +1,67 @@
+@media (max-width:425px) {
+
+header{
+  position:static;
+}
+
+  .bannerDiv{
+    h1{
+        padding: 5px;
+        font-size: 20px;
+        top:10%;
+    
+    }
+  }
+
+  .sobreNosotros {
+    padding: 54px;
+    padding-top: 4px;
+    h2{
+      padding-left: 36px;
+    }
+  }
+  .gridsHabitaciones{
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:5px repeat(6,1fr);
+    grid-template-areas:
+    
+    "item-1  item-1 "
+    "item-2  item-2 "
+    "item-3  item-3 "
+    "item-4  item-4 "
+    "item-5  item-5 "
+    "item-6  item-6 "
+    "item-7  item-7 "
+    ;
+      h2 {
+      margin-top: 39px;
+      }
+      img {
+          width: 100%;
+          margin-top: 18px;
+      }
+    }
+  .spa{
+    
+    align-items: flex-start;
+    margin-top: 0px;
+    padding: 20px;
+
+    h2 {
+    padding: 62px 160px;
+        }
+    }
+
+
+    .barraFooter{
+      gap: 25px;
+      li {
+          a{
+          img{
+          width: 20px;
+          height: 20px;
+              }
+          }
+          }
+  }
+}

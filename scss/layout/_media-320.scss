@@ -1,0 +1,134 @@
+
+@media (max-width:320px){
+
+    header {
+        position:static;
+        }
+.barraNav{
+    display: none;
+}
+.bannerDiv{
+    padding: 0px;
+    h1 {
+        padding: 12px;
+        top: 20%;
+    }
+}
+.reserva-2 {
+    padding: 19px;
+}
+.serviciosRow-1{
+    justify-content: center;
+    gap: 5px;
+    padding: 62px;
+}
+.serviciosRow-2{
+    justify-content: center;
+    gap:3px;
+    padding: 39px;
+    }
+.servicios{
+    padding: 0;
+}
+    .gridsHabitaciones{
+        background-color:rgb(211, 222, 233);
+        padding: 0px;
+        display: grid;
+        top: 0;
+        grid-template-columns:1fr;
+        grid-template-rows: 5px repeat(6,1fr);
+        width:100%;
+        row-gap: 2px;
+        justify-content: center;
+        align-items: center;
+        grid-template-areas:
+
+        "item-1"
+        "item-2"
+        "item-3"
+        "item-4"
+        "item-5"
+        "item-6"
+        "item-7"
+        ;
+        img{
+        width: 100%;
+        margin-top: -38px;
+        margin-left: 1px;
+    }
+        h2 {
+        margin-top: 58px;
+        padding: 8px 49px;
+        font-size: 20px;
+        }
+
+        p{
+        margin-top: -52px;
+        justify-self: center;
+        align-self: center;
+        padding: 5px;
+        background-color:#b0d9dd;
+        font-size: 15;
+        }
+    }
+
+    .restoTitulo h2 {
+        padding: 44px;
+    }
+
+    .containerB{
+        flex-direction: column;
+    
+    }
+
+    .restoTitulo h2 {
+        padding: 30px;
+    }
+    .spa {
+        width: 100%;
+        margin-top: 0px;
+        padding: 10px;
+        align-items: flex-start;
+        h2 {
+            padding: 57px 107px;
+        }
+    }
+
+    .imgS-3 {
+        img {
+        width: 100%;
+        padding: 10px;
+        }
+    }
+
+    footer section{
+        align-items: baseline;
+        padding: 15px;
+    }
+    .barraFooter-2 {
+        margin-top: 5px;
+        h3 {
+            margin-top: 0px;
+            margin-left: 4px;
+            margin-bottom: 0px;
+        ul{
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+        }
+    }
+
+        .barraFooter{
+            gap: 10px;
+            li {
+                a {
+                    img{
+                width: 10px;
+                height: 10px;
+                        }
+                    }
+                }
+        }
+
+    
+}

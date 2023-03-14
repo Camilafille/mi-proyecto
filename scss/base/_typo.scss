@@ -1,0 +1,36 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Titulos */
+
+h2{
+    padding:80px 40px ; 
+    position: relative;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
+    font-weight:bold;
+    font-style: italic;
+    color:rgb(15, 15, 15);
+}
+h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+    font-weight:bold;
+    font-style: italic;
+    color:rgb(15, 15, 15);
+}
+
+/* Parrafos */
+
+p{
+    color: rgb(12, 12, 12);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20;
+    text-indent: 60px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}

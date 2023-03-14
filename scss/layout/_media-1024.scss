@@ -1,0 +1,49 @@
+@media (max-width:1024px) {
+
+    .bannerDiv{
+
+        h1{
+            padding: 50px;
+            top: 40%;
+            left: 60%;
+            font-size: 40px;
+
+        }
+    }
+    .servicios{
+        padding: 80px;
+        
+        }
+        .serviciosRow-1 {
+            gap: 28px;
+            padding: 26px;
+        }
+    .serviciosRow-2 {
+            gap: 3px;
+            padding: 39px;
+    }
+
+    .gridsHabitaciones{
+        h2{ 
+            font-size: 20px;
+            margin-top: 80px;
+            padding: 10px 400px;
+        }
+        img{
+            margin-top: 60px;
+            margin-left: 20px;
+            width: 400px;
+        }
+        p{
+            margin-top: 10px;
+            padding: 10px;
+            margin-right:10px;
+            margin-left:10px;
+            background-color:#98d4eb9c;
+            border: 4px solid #071E3D;
+            font-size: 15;
+        }
+    }
+}
+
+
