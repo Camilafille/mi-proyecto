@@ -8,17 +8,18 @@
     flex-direction: row;
     flex-wrap: wrap;
     background-color:#020d1d;
-    row-gap: 20px;
     align-items: center;
-    padding: 60px;
+    padding: 40px;
+    
     h2{
-        padding: 80px;
+        padding: 60px;
         color: $colorBg;
         margin: 20px;
         border: 10px;
     }
     p{
         color:$colorBg;
+        margin-bottom:30px;
     }
 }
 
@@ -41,7 +42,17 @@
         }
 }
 
-
+.horario{
+    padding:15px;
+    margin:10px;
+    text-align:center;
+    background-color:$colorBg;
+    h3{
+        color:$color3;
+        font-size: 25px;
+        padding:15px;
+    }
+}
 
 .containerB{
     display:flex;

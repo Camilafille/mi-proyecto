@@ -12,3 +12,18 @@
     background-color:rgb(242, 245, 250);
     background-attachment: fixed;
 }
+
+
+::-webkit-scrollbar{
+    width: 20px;
+
+}
+
+::-webkit-scrollbar-track{
+    background: #dddddd;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: $color3;
+}

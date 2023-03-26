@@ -10,67 +10,89 @@
 .bannerDiv{
     padding: 0px;
     h1 {
-        padding: 12px;
-        top: 20%;
+            padding: 0px;
+            top: 15%;
+            background-color:rgba(255, 255, 255, 0.062);
+        }
+    
+}
+
+
+.sobreNosotros {
+    padding: 24px;
+    padding-top: 0px;
+    h2{
+        padding: 62px 40px;
+    }
+    p{
+        text-indent: 3px;
     }
 }
-.reserva-2 {
-    padding: 19px;
+
+
+.cardsIndex {
+    margin: 13px;
+    gap:35px;
 }
+.galeria {
+    width: 18rem;
+    height: 14rem;
+    margin-left: 0px;
+}
+
 .serviciosRow-1{
     justify-content: center;
-    gap: 5px;
-    padding: 62px;
+    gap: 66px;
+    padding: 38px;
 }
+
 .serviciosRow-2{
     justify-content: center;
-    gap:3px;
-    padding: 39px;
-    }
+    gap: 64px;
+    padding: 51px;
+}
 .servicios{
     padding: 0;
 }
-    .gridsHabitaciones{
-        background-color:rgb(211, 222, 233);
-        padding: 0px;
-        display: grid;
-        top: 0;
-        grid-template-columns:1fr;
-        grid-template-rows: 5px repeat(6,1fr);
+
+.carH2{
+
+h2 {
+    padding: 0px;
+    }
+}
+
+
+.habitaciones {
+    margin-bottom: 47px;
+    gap: 28px;
+    }
+
+
+.item-1{
+    img{
         width:100%;
-        row-gap: 2px;
-        justify-content: center;
-        align-items: center;
-        grid-template-areas:
+    }
+    p{
+        padding: 27px;
+    }
+    }
 
-        "item-1"
-        "item-2"
-        "item-3"
-        "item-4"
-        "item-5"
-        "item-6"
-        "item-7"
-        ;
+    .item-2{
         img{
-        width: 100%;
-        margin-top: -38px;
-        margin-left: 1px;
-    }
-        h2 {
-        margin-top: 58px;
-        padding: 8px 49px;
-        font-size: 20px;
+            width:100%;
         }
+        p {
+        padding: 32px;
+        }
+    }
 
-        p{
-        margin-top: -52px;
-        justify-self: center;
-        align-self: center;
-        padding: 5px;
-        background-color:#b0d9dd;
-        font-size: 15;
-        }
-    }
+
+
+.form{
+    margin-left: 0;
+}
+    
 
     .restoTitulo h2 {
         padding: 44px;
@@ -81,8 +103,10 @@
     
     }
 
-    .restoTitulo h2 {
-        padding: 30px;
+    .restoTitulo{
+        h2 {
+        padding: 14px;
+        }
     }
     .spa {
         width: 100%;
@@ -94,12 +118,22 @@
         }
     }
 
+    .imgS-2 {
+        padding: 8px;
+        height: 1003px;
+    }
+
+    
     .imgS-3 {
         img {
         width: 100%;
         padding: 10px;
         }
-    }
+        p {
+            padding: 9px;
+            margin-top: 0px;
+            }
+        }
 
     footer section{
         align-items: baseline;

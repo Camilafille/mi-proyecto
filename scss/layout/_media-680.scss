@@ -1,4 +1,4 @@
-@media (max-width:680px){
+@media (max-width:684px){
 
 .barraNav{
     display:none;
@@ -6,12 +6,12 @@
     .burger-menu {
         position: relative;
         display: inline-block;
-      }
+        }
     
     .burger-menu .bar {
         width: 30px;
         height: 3px;
-        background-color: #333;
+        background-color:rgb(235, 113, 42);
         margin: 6px 0;
         }
 
@@ -25,11 +25,18 @@
         z-index: 1;
         ul{
             list-style: none;
+            margin-bottom: 0;
+            padding-left: 0;
+            box-shadow: 5px 5px 40px #9c9b9b;
             li {
                 padding: 10px 14px;
                 cursor: pointer;
+                border-bottom: 2px solid #333;
+                box-shadow: 5px 5px 40px #9c9b9b;
                     a{
                     text-decoration:none;
+                    color: #333;
+                    padding: 12px 16px;
                     }
                 }
             }
@@ -38,6 +45,7 @@
 
     .burger-menu:hover .dropdown {
         display: block;
+        
         }
     
     header{
@@ -60,54 +68,39 @@
         
         }
     }
-    .servicios {
-        padding: 46px;
-    }
-    .serviciosRow-1 {
-        gap: 93px;
-    }
-    .serviciosRow-2 {
-    gap: 46px;
-    padding: 20px;
+
+
+    .galeria {
+            width: 34rem;
+            height: 19rem;
     }
 
-    .gridsHabitaciones{
-        background-color:rgb(211, 222, 233);
-        padding: 5px;
-        display: grid;
-        grid-template-columns:repeat(3,1fr);
-        grid-template-rows:5px repeat(6,1fr);
-        width:100% ;
-        row-gap: 2px;
-        justify-content: center;
-        align-items: center;
-        height:auto;
-        grid-template-areas:
-        
-        "item-1  item-1  item-1 "
-        "item-2  item-2  item-2  "
-        "item-3  item-3  item-3  "
-        "item-4  item-4  item-4  "
-        "item-5  item-5  item-5  "
-        "item-6  item-6  item-6  "
-        "item-7  item-7  item-7  "
-        ;
-        img{
-            width: 250px;
-        }
-        h2{ 
-            margin-top: 50px;
-            padding: 30px 80px;
-        }
-        p{
-            justify-self: center;
-            align-self: center;
-            padding: 5px;
-            margin-right:5px;
-            margin-left:5px;
-            font-size: 15;
+
+
+
+
+    .form {
+        margin-left: 0;
+    }
+    
+    .servicios {
+        padding: 26px;
+    }
+    .serviciosH{
+        h2 {
+        padding: 23px 40px;
         }
     }
+
+    .serviciosRow-1 {
+        gap: 20px;
+    }
+
+    .serviciosRow-2 {
+        gap: 42px;
+        padding: 18px;
+    }
+    
         footer section{
             height:100px;
             background-color: #94b0da;
@@ -161,34 +154,43 @@
         .imgS-1{
             width: 100%;
             padding: 5px;
-            background-color:#98d4eb9c;
+            height: 523px;
             img{
                 width:200px;
-                border-radius: 50%;
                 padding: 10px;
+            }
+            p{
+                margin-top: 0px;
+                width: 100%;
+                padding: 2px;
             }
             }
             
             
             
             .imgS-2 {
-            flex-direction: column;
-            padding: 10px;
+                flex-direction: row;
+                padding: 28px;
+                height: 709px;
             img{
-                width: 200px;
+                width: 221px;
                 border-radius: 50%;
-                padding: 10px;
+                padding: 0px;
                 
             }
             p{
-                padding: 10px;
+                padding: 6px;
+                width: 100%;
             }
             }
+
+
 
             .imgS-3 {
             flex-direction: column;
             align-items: flex-start;
-            padding: 10px;
+            padding: 6px;
+            height: 544px;
             img{
                 width: 350px;
                 padding: 30px;
@@ -196,6 +198,7 @@
             }
             p{
                 padding:10px ;
+                margin-top: 14px;
             }
             }
 

@@ -37,56 +37,36 @@ header{
         }
     }
 
-
-.form {
-    padding:25px;
-    flex-direction:column;
-    column-gap:5px;
-}
+    .item-2 {
+        p {
+        
+    padding: 25px;
+        }
+    }
 
 .serviciosRow-2 {
     gap: 15px;
     padding: 10px;
 }
-.gridsHabitaciones{
-        padding: 5px;
-        display: grid;
-        grid-template-columns:repeat(4,1fr);
-        grid-template-rows:40px repeat(3,1fr);
-        width:100% ;
-        row-gap: 10px;
-        column-gap: 40px;
-        justify-content: center;
-        align-items: center;
-        height:auto;
-        grid-template-areas:
-        "item-1  item-1  item-1  item-1 "
-        "item-2  item-2  item-3 item-3   "
-        "item-5  item-5  item-4  item-4    "
-        "item-6  item-6  item-7  item-7   "
-        ;
-        h2{ 
-            font-size: 20px;
-            margin-top: 64px;
-            padding: 30px 200px;
-        }
-        img{
-            margin-left: 10px;
-            width: 450px;
-        }
-        p{
-            justify-self: center;
-            align-self: center;
-            padding: 10px;
-            margin-right:10px;
-            margin-left:10px;
-            border:none;
-            font-size: 15;
-            border: 2px solid  #071E3D;
-            }
-    }
 
-    .spa h2 {
-        padding: 48px 225px;
-    }
+
+.imgS-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 490px;
+}
+
+
+.imgS-2 {
+    
+    padding: 28px;
+    height: 590px;
+    justify-content: center
+    img{
+    width: 239px;
+    padding: 0px;
+    } 
+}
+
 }

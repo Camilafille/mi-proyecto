@@ -2,31 +2,40 @@
 
 
 .spa{
-    margin-top: 5px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    padding: 80px;
+    padding: 40px;
     }
     .pSmall{
         font-size: x-small;
     }
     .imgS-1{
-        display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
     width: 100%;
+    height: 395px;
+    border-radius: 60px;
+    background: #d5f0f0;
+    box-shadow: -15px 15px 30px #9c9b9b,
+                -15px -15px 30px #eff8f8;
     padding: 10px;
-    background-color:#98d4eb9c;
+    margin-bottom: 40px;
         img{
         width:300px;
         border-radius: 50%;
         }
+        p{
+        
+            margin-top:0px;
+            width: 60%;
+            padding: 15px;
+        }
+    
     }
-    
-    
     
     
     .imgS-2 {
@@ -35,30 +44,40 @@
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    padding: 20px;
+    padding: 4px;
+    height: 395px;
+    margin-bottom:40px;
+        border-radius: 60px;
+        background: #d5f0f0;
+        box-shadow: 15px 15px 30px #9c9b9b,
+                -15px -15px 30px #eff8f8;
     img{
         width: 300px;
         border-radius: 50%;
         padding: 40px;
         
     } 
-    p{
-        margin-top: 15px;
-        width: 100%;
-        padding: 20px;
-        background-color: #98d4eb79;
-        border: 2px solid  #071E3D;
-        
-    }
+        p{
+            width: 70%;
+            padding: 4px;
+        }
     }
     
     
     .imgS-3 {
         display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 36px;
-    justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 26px;
+        margin-bottom: 40px;
+        justify-content: space-between;
+        align-content: center;
+        width: 100%;
+        height: 501px;
+        border-radius: 60px;
+        background: #d5f0f0;
+        box-shadow: -15px 15px 30px #9c9b9b,
+                -15px -15px 30px #eff8f8;
     img{
         width: 400px;      
         align-items: center;
@@ -66,8 +85,9 @@
         padding: 10px;
     }
     p{
-        margin-top: 15px;
-        background-color: #98d4eb79;
+    margin-top: 5px;
+    text-align:center;
+
     }
     
     }
